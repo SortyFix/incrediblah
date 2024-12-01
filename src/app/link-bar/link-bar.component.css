@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: var(--grid-column-pattern);
+  margin-left: var(--buttons-center-offset-x);
+  margin-bottom: var(--buttons-center-offset-y);
+}
+
+.grid-item {
+  border: none;
+  font-family: var(--button-font), serif;
+  color: var(--button-font-color);
+  font-size: var(--button-font-size);
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  color: var(--button-hover-text-color);
+}

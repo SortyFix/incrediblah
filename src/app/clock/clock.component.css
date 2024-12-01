@@ -1,0 +1,7 @@
+.clock-style {
+  color: var(--clock-text-color);
+  font-family: var(--clock-font), serif;
+  font-size: var(--clock-font-size);
+  margin-left: var(--clock-center-offset-x);
+  margin-bottom: var(--clock-center-offset-y);
+}

@@ -1,12 +1,21 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {ClockComponent} from './clock/clock.component';
+import {LinkBarComponent} from './link-bar/link-bar.component';
+import {DataLoader} from '../data-loader';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [ClockComponent, LinkBarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'incrediblah';
+  fitSize: any;
+
+  constructor(private dataLoader: DataLoader) {
+    dataLoader.injectJSON();
+    this.fitSize = dataLoader.fitSize;
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "background-style": "#121212",
+  "clock": {
+    "font-style": "SourceCodeVF",
+    "font-size": "40px",
+    "font-color": "white",
+    "x-offset": "-15px",
+    "y-offset": "25px",
+    "clock-tick": "1"
+  },
+  "buttons": {
+    "font-family": "SourceCodeVF",
+    "font-size": "20px",
+    "font-color": "white",
+    "font-hover-color": "red",
+    "grid-column-pattern": "auto auto",
+    "list": [
+      { "text": "YouTube", "link": "https://www.youtube.com/" },
+      { "text": "Twitter", "link": "https://x.com/" },
+      { "text": "WhatsApp", "link": "https://web.whatsapp.com/" },
+      { "text": "Discord", "link": "https://discord.com/channels/@me" },
+      { "text": "GitHub", "link": "https://github.com/" },
+      { "text": "Overleaf", "link": "https://www.overleaf.com/" },
+      { "text": "ChatGPT", "link": "https://chatgpt.com/" },
+      { "text": "StackOverflow", "link": "https://stackoverflow.com/" }
+    ],
+    "x-offset": "0px",
+    "y-offset": "0px"
+  },
+  "box": {
+    "background": "black",
+    "border-radius": "8px",
+    "blur": {
+      "enabled": false,
+      "strength": "10px"
+    },
+    "fit-size": true
+  }
+}

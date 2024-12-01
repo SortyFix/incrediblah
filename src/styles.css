@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Background */
+  --background-style: #121212;
+
+  /* Clock */
+  --clock-text-color: white;
+  --clock-font: SourceCodeVF;
+  --clock-font-size: 40px;
+  --clock-center-offset-x: -15px;
+  --clock-center-offset-y: 25px;
+  --clock-tick: 1;
+
+  /* Buttons */
+  --grid-column-pattern: auto auto;
+  --button-font: SourceCodeVF;
+  --button-font-size: 20px;
+  --button-font-color: white;
+  --button-hover-text-color: red;
+  --buttons-center-offset-x: 0px;
+  --buttons-center-offset-y: 0px;
+
+  /* Box */
+  --box-background: black;
+  --box-border-radius: 8px;
+  --box-blur-strength: 10px;
+}
+
+html, body {
+  overflow: hidden;
+  background: var(--background-style) no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
