@@ -1,59 +1,48 @@
 # Incrediblah
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+A hyper-customizable Angular-based start page for your browser!
 
-## Development server
 
-To start a local development server, run:
+## Screenshots
 
-```bash
-ng serve
-```
+![App Screenshot](Screenshot_20241201_190850.png)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## Demo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+A demo of the absolute default configuration can be found here: https://incrediblah.netlify.app/. Keep in mind that the colors, the fonts, the positioning, box style and background can be easily modified within the `config.json` file within `/src` after cloning.  
+## Run Locally
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone the project
 
 ```bash
-ng generate --help
+  git clone https://github.com/SortyFix/incrediblah.git
 ```
 
-## Building
-
-To build the project run:
+2. Go to the project directory
 
 ```bash
-ng build
+  cd incrediblah
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+3. Run bash install script
 
 ```bash
-ng test
+  bash install.bash
 ```
 
-## Running end-to-end tests
+4. Set your browser's start page to the port that has been defined in the `install.bash` script.  
+*(default: `localhost:2118`)*. 
 
-For end-to-end (e2e) testing, run:
+## Modify Incrediblah
 
-```bash
-ng e2e
+1. Edit /src/config.json to modify your setup directly
+2. After modification, run  
 ```
+bash ~/incrediblah/update.bash
+```
+3. Reload the start page in case you have it open
+## License
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
