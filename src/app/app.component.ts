@@ -13,9 +13,11 @@ import {DataLoader} from '../data-loader';
 export class AppComponent {
   title = 'incrediblah';
   fitSize: any;
+  blur: any;
 
   constructor(private dataLoader: DataLoader) {
     dataLoader.injectJSON();
+    this.blur = dataLoader.boxBlurEnabled;
     this.fitSize = dataLoader.fitSize;
   }
 }
