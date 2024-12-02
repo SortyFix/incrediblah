@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cat << 'END_CAT'
 
 
