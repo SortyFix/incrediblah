@@ -6,7 +6,6 @@ A hyper-customizable Angular-based start page for your browser!
 ## Screenshots
 
 ![App_Screenshot](Screenshot_20241202_005508.png)
-![App Screenshot](Screenshot_20241201_190850.png)
 
 
 ## Demo
